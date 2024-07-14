@@ -18,7 +18,7 @@ public class MetData
 			try {
 				Class.forName("oracle.jdbc.driver.OracleDriver");
 				Connection con= DriverManager.getConnection
-						("jdbc:oracle:thin:@localhost:1521:orcl","c##pavan","pavankumar");
+						("jdbc:oracle:thin:@localhost:1521:orcl","c##pavan","pavankumar1425");
 				System.out.println("*********DATABASE METADATA*************");
 				DatabaseMetaData dmd=con.getMetaData();
 				System.out.println("driver version : "+dmd.getDriverVersion());
